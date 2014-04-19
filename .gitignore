@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore everything first:
 /*
 
@@ -24,3 +25,16 @@ content/themes/yourtheme/*
 !/content/themes/yourtheme/
 
 !/content/themes/yourtheme/*
+=======
+# vim ~tmp files
+*.swp
+*.un~
+
+# ignore bourbon install so that it is the latest build
+# for developers that need it
+assets/scss/bourbon/*
+
+# ignore the sass-cache/
+.sass-cache/*
+**/.sass-cache/*
+>>>>>>> a63aefe408200e9242e4aa2e9d4d9ee9be516c69
